@@ -81,7 +81,7 @@ class DicomVideoConverterSend:
         url = self.server_url  # Usa la URL pasada al constructor
 
         url = 'https://server-production-c354.up.railway.app/ultrasonography/upload'  # Tu URL correcta
-        headers = {'Authorization': 'Bearer e073ced94b8dfd0ef3e088070da07562b93a4e4af5dc3c5e74ba05c0e9a70868'}  # Ejemplo de cabecera de autorización
+        headers = {'Authorization': 'Bearer *****'}  # Ejemplo de cabecera de autorización
 
 # Abre el archivo aquí para poder cerrarlo después correctamente
         with open(video_path, 'rb') as file_to_upload:
